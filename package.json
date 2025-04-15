@@ -1,5 +1,5 @@
 {
-  "name": "utility",
+  "name": "ganesh-node-cicd",
   "version": "1.0.1",
   "description": "set of tools to encrypt and decrypt prescinto messages",
   "main": "server.js",
