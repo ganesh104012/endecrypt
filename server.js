@@ -10,6 +10,7 @@ var app = express();
 DataPrivateKey = 'Lq9uk9WTC8f3709phzh36hMuTU4tx18A';
 // DataPrivateKey = '';
 environment={"isDynamicEncryption":true,"intializationVector":'8080808080808080'};
+const port = process.env.PORT || 5000;
 function AesEncrypt(text, privatekey) {
     var iv;
     var encrypted;
@@ -214,6 +215,6 @@ app.get('/basicDecrypt', function (req, res) {
 });
 
 
-app.listen(process.env.PORT || 5000, function () {
+app.listen(port, function () {
     console.log("server started on 5000")
 });
