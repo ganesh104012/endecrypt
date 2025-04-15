@@ -1,0 +1,1606 @@
+[
+    {
+        "Id": 0,
+        "Category": "Plant",
+        "TemplateID": 6,
+        "Devices": [
+            {
+                "Id": 1,
+                "NodeID": 60100000,
+                "Name": "ESI Jodhpur",
+                "ActualName": null,
+                "AliasName": null,
+                "Parameters": [
+                    {
+                        "Id": 1,
+                        "Name": "Daily Energy",
+                        "NameVirtual": "DailyEnergy",
+                        "NodeID": 60100100,
+                        "DataType": 9,
+                        "Unit": "kWh",
+                        "Alarms": null
+                    },
+                    {
+                        "Id": 4,
+                        "Name": "PR",
+                        "NameVirtual": "PR",
+                        "NodeID": 60100400,
+                        "DataType": 9,
+                        "Unit": "%",
+                        "Alarms": null
+                    },
+                    {
+                        "Id": 7,
+                        "Name": "GHI Irradiance",
+                        "NameVirtual": "GHIIrradiance",
+                        "NodeID": 60100700,
+                        "DataType": 9,
+                        "Unit": "w/m²",
+                        "Alarms": null
+                    },
+                    {
+                        "Id": 8,
+                        "Name": "POA Irradiance",
+                        "NameVirtual": "POAIrradiance",
+                        "NodeID": 60100800,
+                        "DataType": 9,
+                        "Unit": "w/m²",
+                        "Alarms": null
+                    },
+                    {
+                        "Id": 9,
+                        "Name": "Ambient Temperature",
+                        "NameVirtual": "AmbientTemperature",
+                        "NodeID": 60100900,
+                        "DataType": 9,
+                        "Unit": "°C",
+                        "Alarms": null
+                    },
+                    {
+                        "Id": 10,
+                        "Name": "Module Temperature",
+                        "NameVirtual": "ModuleTemperature",
+                        "NodeID": 60101000,
+                        "DataType": 9,
+                        "Unit": "°C",
+                        "Alarms": null
+                    },
+                    {
+                        "Id": 13,
+                        "Name": "CUF",
+                        "NameVirtual": "CUF",
+                        "NodeID": 60101300,
+                        "DataType": 9,
+                        "Unit": "%",
+                        "Alarms": null
+                    },
+                    {
+                        "Id": 18,
+                        "Name": "Active Power",
+                        "NameVirtual": "ActivePower",
+                        "NodeID": 60101800,
+                        "DataType": 9,
+                        "Unit": "kW",
+                        "Alarms": null
+                    },
+                    {
+                        "Id": 20,
+                        "Name": "Total Energy",
+                        "NameVirtual": "TotalEnergy",
+                        "NodeID": 60102000,
+                        "DataType": 9,
+                        "Unit": "kWh",
+                        "Alarms": null
+                    },
+                    {
+                        "Id": 21,
+                        "Name": "Daily POA Energy",
+                        "NameVirtual": "DailyPOAEnergy",
+                        "NodeID": 60102100,
+                        "DataType": 9,
+                        "Unit": "Wh/m²",
+                        "Alarms": null
+                    },
+                    {
+                        "Id": 25,
+                        "Name": "Specific Power",
+                        "NameVirtual": "SpecificPower",
+                        "NodeID": 60102500,
+                        "DataType": 9,
+                        "Unit": "kW/kWp",
+                        "Alarms": null
+                    },
+                    {
+                        "Id": 59,
+                        "Name": "DC CUF",
+                        "NameVirtual": "DCCUF",
+                        "NodeID": 60105900,
+                        "DataType": 9,
+                        "Unit": "%",
+                        "Alarms": null
+                    },
+                    {
+                        "Id": 60,
+                        "Name": "Specific Energy",
+                        "NameVirtual": "SpecificEnergy",
+                        "NodeID": 60106000,
+                        "DataType": 9,
+                        "Unit": "kWh/kWp",
+                        "Alarms": null
+                    },
+                    {
+                        "Id": 64,
+                        "Name": "POA Instantaneous Energy",
+                        "NameVirtual": "POAInstantaneousEnergy",
+                        "NodeID": 60106400,
+                        "DataType": 9,
+                        "Unit": "Wh/m²",
+                        "Alarms": null
+                    },
+                    {
+                        "Id": 66,
+                        "Name": "Global POA Energy",
+                        "NameVirtual": "GlobalPOAEnergy",
+                        "NodeID": 60106600,
+                        "DataType": 9,
+                        "Unit": "Wh/m²",
+                        "Alarms": null
+                    },
+                    {
+                        "Id": 71,
+                        "Name": "Curtailment Percentage",
+                        "NameVirtual": "CurtailmentPercentage",
+                        "NodeID": 60107100,
+                        "DataType": 9,
+                        "Unit": "%",
+                        "Alarms": null
+                    },
+                    {
+                        "Id": 72,
+                        "Name": "Instantaneous Curtailment Loss",
+                        "NameVirtual": "InstantaneousCurtailmentLoss",
+                        "NodeID": 60107200,
+                        "DataType": 9,
+                        "Unit": "kWh",
+                        "Alarms": null
+                    },
+                    {
+                        "Id": 75,
+                        "Name": "Plant Availability",
+                        "NameVirtual": "PlantAvailability",
+                        "NodeID": 60107500,
+                        "DataType": 9,
+                        "Unit": "%",
+                        "Alarms": null
+                    },
+                    {
+                        "Id": 76,
+                        "Name": "Grid Availability",
+                        "NameVirtual": "GridAvailability",
+                        "NodeID": 60107600,
+                        "DataType": 9,
+                        "Unit": "%",
+                        "Alarms": null
+                    },
+                    {
+                        "Id": 80,
+                        "Name": "CO2 Reduced",
+                        "NameVirtual": "CO2Reduced",
+                        "NodeID": 60108000,
+                        "DataType": 9,
+                        "Unit": "kg",
+                        "Alarms": null
+                    },
+                    {
+                        "Id": 81,
+                        "Name": "Trees Saved",
+                        "NameVirtual": "TreesSaved",
+                        "NodeID": 60108100,
+                        "DataType": 9,
+                        "Unit": null,
+                        "Alarms": null
+                    },
+                    {
+                        "Id": 91,
+                        "Name": "Expected Power",
+                        "NameVirtual": "ExpectedPower",
+                        "NodeID": 60109100,
+                        "DataType": 9,
+                        "Unit": "kW",
+                        "Alarms": null
+                    },
+                    {
+                        "Id": 93,
+                        "Name": "PPA Rate",
+                        "NameVirtual": "PPARate",
+                        "NodeID": 60109300,
+                        "DataType": 9,
+                        "Unit": "-",
+                        "Alarms": null
+                    },
+                    {
+                        "Id": 94,
+                        "Name": "Expected Generation",
+                        "NameVirtual": "ExpectedGeneration",
+                        "NodeID": 60109400,
+                        "DataType": 9,
+                        "Unit": "kWh",
+                        "Alarms": null
+                    },
+                    {
+                        "Id": 95,
+                        "Name": "Generation gap",
+                        "NameVirtual": "Generationgap",
+                        "NodeID": 60109500,
+                        "DataType": 9,
+                        "Unit": "%",
+                        "Alarms": null
+                    }
+                ],
+                "IsMaster": true,
+                "IsExpanded": false,
+                "ParentDeviceId": 0,
+                "TemplateID": 6,
+                "DeviceClassID": 6,
+                "DeviceClassVersion": 12.299999999999974
+            },
+            {
+                "Id": 4,
+                "NodeID": 50400000,
+                "Name": "Plant Curtailment Percentage",
+                "ActualName": null,
+                "AliasName": null,
+                "Parameters": [
+                    {
+                        "Id": 71,
+                        "Name": "Curtailment Percentage",
+                        "NameVirtual": "CurtailmentPercentage",
+                        "NodeID": 50407100,
+                        "DataType": 9,
+                        "Unit": "%",
+                        "Alarms": null
+                    }
+                ],
+                "IsMaster": true,
+                "IsExpanded": false,
+                "ParentDeviceId": 0,
+                "TemplateID": 6,
+                "DeviceClassID": 454,
+                "DeviceClassVersion": 1.3000000000000003
+            }
+        ],
+        "IsExpanded": false
+    },
+    {
+        "Id": 0,
+        "Category": "Inverter",
+        "TemplateID": 1,
+        "Devices": [
+            {
+                "Id": 1,
+                "NodeID": 50100000,
+                "Name": "INV-1",
+                "ActualName": null,
+                "AliasName": null,
+                "Parameters": [
+                    {
+                        "Id": 3,
+                        "Name": "AC Current Line1",
+                        "NameVirtual": "ACCurrentLine1",
+                        "NodeID": 50100300,
+                        "DataType": 9,
+                        "Unit": "A",
+                        "Alarms": null
+                    },
+                    {
+                        "Id": 4,
+                        "Name": "AC Current Line2",
+                        "NameVirtual": "ACCurrentLine2",
+                        "NodeID": 50100400,
+                        "DataType": 9,
+                        "Unit": "A",
+                        "Alarms": null
+                    },
+                    {
+                        "Id": 5,
+                        "Name": "AC Current Line3",
+                        "NameVirtual": "ACCurrentLine3",
+                        "NodeID": 50100500,
+                        "DataType": 9,
+                        "Unit": "A",
+                        "Alarms": null
+                    },
+                    {
+                        "Id": 6,
+                        "Name": "AC Frequency",
+                        "NameVirtual": "ACFrequency",
+                        "NodeID": 50100600,
+                        "DataType": 9,
+                        "Unit": "Hz",
+                        "Alarms": null
+                    },
+                    {
+                        "Id": 7,
+                        "Name": "AC Voltage V12",
+                        "NameVirtual": "ACVoltageV12",
+                        "NodeID": 50100700,
+                        "DataType": 9,
+                        "Unit": "V",
+                        "Alarms": null
+                    },
+                    {
+                        "Id": 8,
+                        "Name": "AC Voltage V23",
+                        "NameVirtual": "ACVoltageV23",
+                        "NodeID": 50100800,
+                        "DataType": 9,
+                        "Unit": "V",
+                        "Alarms": null
+                    },
+                    {
+                        "Id": 9,
+                        "Name": "AC Voltage V31",
+                        "NameVirtual": "ACVoltageV31",
+                        "NodeID": 50100900,
+                        "DataType": 9,
+                        "Unit": "V",
+                        "Alarms": null
+                    },
+                    {
+                        "Id": 10,
+                        "Name": "Active Power",
+                        "NameVirtual": "ActivePower",
+                        "NodeID": 50101000,
+                        "DataType": 9,
+                        "Unit": "kW",
+                        "Alarms": null
+                    },
+                    {
+                        "Id": 13,
+                        "Name": "Apparent Power",
+                        "NameVirtual": "ApparentPower",
+                        "NodeID": 50101300,
+                        "DataType": 9,
+                        "Unit": "kVA",
+                        "Alarms": null
+                    },
+                    {
+                        "Id": 18,
+                        "Name": "DC Current 1",
+                        "NameVirtual": "DCCurrent1",
+                        "NodeID": 50101800,
+                        "DataType": 9,
+                        "Unit": "A",
+                        "Alarms": null
+                    },
+                    {
+                        "Id": 19,
+                        "Name": "DC Current 10",
+                        "NameVirtual": "DCCurrent10",
+                        "NodeID": 50101900,
+                        "DataType": 9,
+                        "Unit": "A",
+                        "Alarms": null
+                    },
+                    {
+                        "Id": 20,
+                        "Name": "DC Current 11",
+                        "NameVirtual": "DCCurrent11",
+                        "NodeID": 50102000,
+                        "DataType": 9,
+                        "Unit": "A",
+                        "Alarms": null
+                    },
+                    {
+                        "Id": 21,
+                        "Name": "DC Current 12",
+                        "NameVirtual": "DCCurrent12",
+                        "NodeID": 50102100,
+                        "DataType": 9,
+                        "Unit": "A",
+                        "Alarms": null
+                    },
+                    {
+                        "Id": 26,
+                        "Name": "DC Current 2",
+                        "NameVirtual": "DCCurrent2",
+                        "NodeID": 50102600,
+                        "DataType": 9,
+                        "Unit": "A",
+                        "Alarms": null
+                    },
+                    {
+                        "Id": 27,
+                        "Name": "DC Current 3",
+                        "NameVirtual": "DCCurrent3",
+                        "NodeID": 50102700,
+                        "DataType": 9,
+                        "Unit": "A",
+                        "Alarms": null
+                    },
+                    {
+                        "Id": 28,
+                        "Name": "DC Current 4",
+                        "NameVirtual": "DCCurrent4",
+                        "NodeID": 50102800,
+                        "DataType": 9,
+                        "Unit": "A",
+                        "Alarms": null
+                    },
+                    {
+                        "Id": 29,
+                        "Name": "DC Current 5",
+                        "NameVirtual": "DCCurrent5",
+                        "NodeID": 50102900,
+                        "DataType": 9,
+                        "Unit": "A",
+                        "Alarms": null
+                    },
+                    {
+                        "Id": 30,
+                        "Name": "DC Current 6",
+                        "NameVirtual": "DCCurrent6",
+                        "NodeID": 50103000,
+                        "DataType": 9,
+                        "Unit": "A",
+                        "Alarms": null
+                    },
+                    {
+                        "Id": 31,
+                        "Name": "DC Current 7",
+                        "NameVirtual": "DCCurrent7",
+                        "NodeID": 50103100,
+                        "DataType": 9,
+                        "Unit": "A",
+                        "Alarms": null
+                    },
+                    {
+                        "Id": 32,
+                        "Name": "DC Current 8",
+                        "NameVirtual": "DCCurrent8",
+                        "NodeID": 50103200,
+                        "DataType": 9,
+                        "Unit": "A",
+                        "Alarms": null
+                    },
+                    {
+                        "Id": 33,
+                        "Name": "DC Current 9",
+                        "NameVirtual": "DCCurrent9",
+                        "NodeID": 50103300,
+                        "DataType": 9,
+                        "Unit": "A",
+                        "Alarms": null
+                    },
+                    {
+                        "Id": 34,
+                        "Name": "Global Energy",
+                        "NameVirtual": "GlobalEnergy",
+                        "NodeID": 50103400,
+                        "DataType": 9,
+                        "Unit": "kWh",
+                        "Alarms": null
+                    },
+                    {
+                        "Id": 36,
+                        "Name": "Heat Sink Temperature 1",
+                        "NameVirtual": "HeatSinkTemperature1",
+                        "NodeID": 50103600,
+                        "DataType": 4,
+                        "Unit": "°C",
+                        "Alarms": null
+                    },
+                    {
+                        "Id": 40,
+                        "Name": "Inverter Alarm",
+                        "NameVirtual": "InverterAlarm",
+                        "NodeID": 50104000,
+                        "DataType": 0,
+                        "Unit": "",
+                        "Alarms": null
+                    },
+                    {
+                        "Id": 42,
+                        "Name": "Inverter Status",
+                        "NameVirtual": "InverterStatus",
+                        "NodeID": 50104200,
+                        "DataType": 4,
+                        "Unit": "",
+                        "Alarms": [
+                            {
+                                "Id": 1,
+                                "Name": "Inverter Status",
+                                "AlarmNodeID": 50104201,
+                                "Severity": 700,
+                                "CustomMessage": null,
+                                "Type": 15,
+                                "OffNormalValue": null,
+                                "BitIndex": null,
+                                "Category": 0,
+                                "HighValue": null,
+                                "LowValue": null,
+                                "RateOfChange": null,
+                                "EnumNormalValue": 0,
+                                "Enums": [
+                                    {
+                                        "EnumValue": 0,
+                                        "EnumString": "Waiting",
+                                        "Category": 0,
+                                        "Error": ""
+                                    },
+                                    {
+                                        "EnumValue": 1,
+                                        "EnumString": "Open Run",
+                                        "Category": 0,
+                                        "Error": ""
+                                    },
+                                    {
+                                        "EnumValue": 2,
+                                        "EnumString": "Soft Run",
+                                        "Category": 0,
+                                        "Error": ""
+                                    },
+                                    {
+                                        "EnumValue": 3,
+                                        "EnumString": "Operation OK",
+                                        "Category": 0,
+                                        "Error": ""
+                                    },
+                                    {
+                                        "EnumValue": 4112,
+                                        "EnumString": "Grid Over Voltage",
+                                        "Category": 0,
+                                        "Error": ""
+                                    },
+                                    {
+                                        "EnumValue": 4113,
+                                        "EnumString": "Grid Under Voltage",
+                                        "Category": 0,
+                                        "Error": ""
+                                    },
+                                    {
+                                        "EnumValue": 4114,
+                                        "EnumString": "Grid Over Frequency",
+                                        "Category": 0,
+                                        "Error": ""
+                                    },
+                                    {
+                                        "EnumValue": 4115,
+                                        "EnumString": "Grid Under Frequency",
+                                        "Category": 0,
+                                        "Error": ""
+                                    },
+                                    {
+                                        "EnumValue": 4116,
+                                        "EnumString": "Grid Impedance Over",
+                                        "Category": 0,
+                                        "Error": ""
+                                    },
+                                    {
+                                        "EnumValue": 4117,
+                                        "EnumString": "No Grid ",
+                                        "Category": 0,
+                                        "Error": ""
+                                    },
+                                    {
+                                        "EnumValue": 4118,
+                                        "EnumString": "Grid Unbalance ",
+                                        "Category": 0,
+                                        "Error": ""
+                                    },
+                                    {
+                                        "EnumValue": 4119,
+                                        "EnumString": "Grid Frequency Fluctuation",
+                                        "Category": 0,
+                                        "Error": ""
+                                    },
+                                    {
+                                        "EnumValue": 4120,
+                                        "EnumString": "Grid Over Current",
+                                        "Category": 0,
+                                        "Error": ""
+                                    },
+                                    {
+                                        "EnumValue": 4121,
+                                        "EnumString": "Grid Current Tracking Fault",
+                                        "Category": 0,
+                                        "Error": ""
+                                    },
+                                    {
+                                        "EnumValue": 4128,
+                                        "EnumString": "DC Over Voltage",
+                                        "Category": 0,
+                                        "Error": ""
+                                    },
+                                    {
+                                        "EnumValue": 4129,
+                                        "EnumString": "DC Bus Over Voltage",
+                                        "Category": 0,
+                                        "Error": ""
+                                    },
+                                    {
+                                        "EnumValue": 4130,
+                                        "EnumString": "DC Bus Unbalance",
+                                        "Category": 0,
+                                        "Error": ""
+                                    },
+                                    {
+                                        "EnumValue": 4131,
+                                        "EnumString": "DC Bus Under Voltage",
+                                        "Category": 0,
+                                        "Error": ""
+                                    },
+                                    {
+                                        "EnumValue": 4132,
+                                        "EnumString": "DC Bus Unbalance 2",
+                                        "Category": 0,
+                                        "Error": ""
+                                    },
+                                    {
+                                        "EnumValue": 4133,
+                                        "EnumString": "DC(Channel A ) Over Current",
+                                        "Category": 0,
+                                        "Error": ""
+                                    },
+                                    {
+                                        "EnumValue": 4134,
+                                        "EnumString": "DC(Channel B ) Over Current",
+                                        "Category": 0,
+                                        "Error": ""
+                                    },
+                                    {
+                                        "EnumValue": 4135,
+                                        "EnumString": "DC Over Current",
+                                        "Category": 0,
+                                        "Error": ""
+                                    },
+                                    {
+                                        "EnumValue": 4144,
+                                        "EnumString": "The Grid Interference Protection",
+                                        "Category": 0,
+                                        "Error": ""
+                                    },
+                                    {
+                                        "EnumValue": 4145,
+                                        "EnumString": "DSP Initial Protection",
+                                        "Category": 0,
+                                        "Error": ""
+                                    },
+                                    {
+                                        "EnumValue": 4146,
+                                        "EnumString": "Temperature Protection",
+                                        "Category": 0,
+                                        "Error": ""
+                                    },
+                                    {
+                                        "EnumValue": 4147,
+                                        "EnumString": "Ground Fault",
+                                        "Category": 0,
+                                        "Error": ""
+                                    },
+                                    {
+                                        "EnumValue": 4148,
+                                        "EnumString": "Leakage Current Protection",
+                                        "Category": 0,
+                                        "Error": ""
+                                    },
+                                    {
+                                        "EnumValue": 4149,
+                                        "EnumString": "Relay Protection",
+                                        "Category": 0,
+                                        "Error": ""
+                                    },
+                                    {
+                                        "EnumValue": 4150,
+                                        "EnumString": "DSP_B Protection",
+                                        "Category": 0,
+                                        "Error": ""
+                                    },
+                                    {
+                                        "EnumValue": 4151,
+                                        "EnumString": "DC Injection Protection",
+                                        "Category": 0,
+                                        "Error": ""
+                                    },
+                                    {
+                                        "EnumValue": 4152,
+                                        "EnumString": "12V Under Voltage Faulty",
+                                        "Category": 0,
+                                        "Error": ""
+                                    },
+                                    {
+                                        "EnumValue": 4153,
+                                        "EnumString": "Leakage Current Check Protection",
+                                        "Category": 0,
+                                        "Error": ""
+                                    },
+                                    {
+                                        "EnumValue": 4160,
+                                        "EnumString": "AFCI Check Fault",
+                                        "Category": 0,
+                                        "Error": ""
+                                    },
+                                    {
+                                        "EnumValue": 4161,
+                                        "EnumString": "AFCI Fault",
+                                        "Category": 0,
+                                        "Error": ""
+                                    },
+                                    {
+                                        "EnumValue": 4162,
+                                        "EnumString": "DSP Chip SRAM Fault",
+                                        "Category": 0,
+                                        "Error": ""
+                                    },
+                                    {
+                                        "EnumValue": 4163,
+                                        "EnumString": "DSP Chip FLASH Fault",
+                                        "Category": 0,
+                                        "Error": ""
+                                    },
+                                    {
+                                        "EnumValue": 4164,
+                                        "EnumString": "DSP Chip PC Pointer Fault",
+                                        "Category": 0,
+                                        "Error": ""
+                                    },
+                                    {
+                                        "EnumValue": 4165,
+                                        "EnumString": "DSP Chip Register Fault",
+                                        "Category": 0,
+                                        "Error": ""
+                                    },
+                                    {
+                                        "EnumValue": 4166,
+                                        "EnumString": "The Grid Interference 2 Protection",
+                                        "Category": 0,
+                                        "Error": ""
+                                    },
+                                    {
+                                        "EnumValue": 4167,
+                                        "EnumString": "The Grid Current Sampling Error",
+                                        "Category": 0,
+                                        "Error": ""
+                                    },
+                                    {
+                                        "EnumValue": 4168,
+                                        "EnumString": "IGBT Over Current",
+                                        "Category": 0,
+                                        "Error": ""
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "Id": 43,
+                        "Name": "Inverter Temperature",
+                        "NameVirtual": "InverterTemperature",
+                        "NodeID": 50104300,
+                        "DataType": 9,
+                        "Unit": "°C",
+                        "Alarms": null
+                    },
+                    {
+                        "Id": 59,
+                        "Name": "PV Current",
+                        "NameVirtual": "PVCurrent",
+                        "NodeID": 50105900,
+                        "DataType": 9,
+                        "Unit": "A",
+                        "Alarms": null
+                    },
+                    {
+                        "Id": 60,
+                        "Name": "PV Power",
+                        "NameVirtual": "PVPower",
+                        "NodeID": 50106000,
+                        "DataType": 9,
+                        "Unit": "kW",
+                        "Alarms": null
+                    },
+                    {
+                        "Id": 61,
+                        "Name": "PV Voltage",
+                        "NameVirtual": "PVVoltage",
+                        "NodeID": 50106100,
+                        "DataType": 9,
+                        "Unit": "V",
+                        "Alarms": null
+                    },
+                    {
+                        "Id": 62,
+                        "Name": "Reactive Power",
+                        "NameVirtual": "ReactivePower",
+                        "NodeID": 50106200,
+                        "DataType": 9,
+                        "Unit": "kVAr",
+                        "Alarms": null
+                    },
+                    {
+                        "Id": 64,
+                        "Name": "Daily Energy",
+                        "NameVirtual": "DailyEnergy",
+                        "NodeID": 50106400,
+                        "DataType": 9,
+                        "Unit": "kWh",
+                        "Alarms": null
+                    },
+                    {
+                        "Id": 69,
+                        "Name": "Specific Power",
+                        "NameVirtual": "SpecificPower",
+                        "NodeID": 50106900,
+                        "DataType": 9,
+                        "Unit": "kW/kWp",
+                        "Alarms": null
+                    },
+                    {
+                        "Id": 70,
+                        "Name": "Efficiency",
+                        "NameVirtual": "Efficiency",
+                        "NodeID": 50107000,
+                        "DataType": 9,
+                        "Unit": "%",
+                        "Alarms": null
+                    },
+                    {
+                        "Id": 74,
+                        "Name": "Total Energy",
+                        "NameVirtual": "TotalEnergy",
+                        "NodeID": 50107400,
+                        "DataType": 9,
+                        "Unit": "kWh",
+                        "Alarms": null
+                    },
+                    {
+                        "Id": 80,
+                        "Name": "Inverter Error Status",
+                        "NameVirtual": "InverterErrorStatus",
+                        "NodeID": 50108000,
+                        "DataType": 9,
+                        "Unit": null,
+                        "Alarms": null
+                    },
+                    {
+                        "Id": 81,
+                        "Name": "Specific Energy",
+                        "NameVirtual": "SpecificEnergy",
+                        "NodeID": 50108100,
+                        "DataType": 9,
+                        "Unit": "kWh/kWp",
+                        "Alarms": null
+                    },
+                    {
+                        "Id": 82,
+                        "Name": "DC Voltage 1",
+                        "NameVirtual": "DCVoltage1",
+                        "NodeID": 50108200,
+                        "DataType": 9,
+                        "Unit": "V",
+                        "Alarms": null
+                    },
+                    {
+                        "Id": 83,
+                        "Name": "DC Voltage 2",
+                        "NameVirtual": "DCVoltage2",
+                        "NodeID": 50108300,
+                        "DataType": 9,
+                        "Unit": "V",
+                        "Alarms": null
+                    },
+                    {
+                        "Id": 84,
+                        "Name": "DC Voltage 3",
+                        "NameVirtual": "DCVoltage3",
+                        "NodeID": 50108400,
+                        "DataType": 9,
+                        "Unit": "V",
+                        "Alarms": null
+                    },
+                    {
+                        "Id": 85,
+                        "Name": "DC Voltage 4",
+                        "NameVirtual": "DCVoltage4",
+                        "NodeID": 50108500,
+                        "DataType": 9,
+                        "Unit": "V",
+                        "Alarms": null
+                    },
+                    {
+                        "Id": 86,
+                        "Name": "DC Voltage 5",
+                        "NameVirtual": "DCVoltage5",
+                        "NodeID": 50108600,
+                        "DataType": 9,
+                        "Unit": "V",
+                        "Alarms": null
+                    },
+                    {
+                        "Id": 87,
+                        "Name": "DC Voltage 6",
+                        "NameVirtual": "DCVoltage6",
+                        "NodeID": 50108700,
+                        "DataType": 9,
+                        "Unit": "V",
+                        "Alarms": null
+                    },
+                    {
+                        "Id": 88,
+                        "Name": "DC Voltage 7",
+                        "NameVirtual": "DCVoltage7",
+                        "NodeID": 50108800,
+                        "DataType": 9,
+                        "Unit": "V",
+                        "Alarms": null
+                    },
+                    {
+                        "Id": 89,
+                        "Name": "DC Voltage 8",
+                        "NameVirtual": "DCVoltage8",
+                        "NodeID": 50108900,
+                        "DataType": 9,
+                        "Unit": "V",
+                        "Alarms": null
+                    },
+                    {
+                        "Id": 90,
+                        "Name": "DC Voltage 9",
+                        "NameVirtual": "DCVoltage9",
+                        "NodeID": 50109000,
+                        "DataType": 9,
+                        "Unit": "V",
+                        "Alarms": null
+                    },
+                    {
+                        "Id": 91,
+                        "Name": "DC Voltage 10",
+                        "NameVirtual": "DCVoltage10",
+                        "NodeID": 50109100,
+                        "DataType": 9,
+                        "Unit": "V",
+                        "Alarms": null
+                    },
+                    {
+                        "Id": 92,
+                        "Name": "DC Voltage 11",
+                        "NameVirtual": "DCVoltage11",
+                        "NodeID": 50109200,
+                        "DataType": 9,
+                        "Unit": "V",
+                        "Alarms": null
+                    },
+                    {
+                        "Id": 93,
+                        "Name": "DC Voltage 12",
+                        "NameVirtual": "DCVoltage12",
+                        "NodeID": 50109300,
+                        "DataType": 9,
+                        "Unit": "V",
+                        "Alarms": null
+                    },
+                    {
+                        "Id": 116,
+                        "Name": "AC Current",
+                        "NameVirtual": "ACCurrent",
+                        "NodeID": 50111600,
+                        "DataType": 9,
+                        "Unit": "A",
+                        "Alarms": null
+                    },
+                    {
+                        "Id": 123,
+                        "Name": "Power Factor",
+                        "NameVirtual": "PowerFactor",
+                        "NodeID": 50112300,
+                        "DataType": 9,
+                        "Unit": null,
+                        "Alarms": null
+                    },
+                    {
+                        "Id": 130,
+                        "Name": "AC Voltage",
+                        "NameVirtual": "ACVoltage",
+                        "NodeID": 50113000,
+                        "DataType": 9,
+                        "Unit": "V",
+                        "Alarms": null
+                    },
+                    {
+                        "Id": 151,
+                        "Name": "AC Power Line1",
+                        "NameVirtual": "ACPowerLine1",
+                        "NodeID": 50115100,
+                        "DataType": 9,
+                        "Unit": "kW",
+                        "Alarms": null
+                    },
+                    {
+                        "Id": 152,
+                        "Name": "AC Power Line2",
+                        "NameVirtual": "ACPowerLine2",
+                        "NodeID": 50115200,
+                        "DataType": 9,
+                        "Unit": "kW",
+                        "Alarms": null
+                    },
+                    {
+                        "Id": 153,
+                        "Name": "AC Power Line3",
+                        "NameVirtual": "ACPowerLine3",
+                        "NodeID": 50115300,
+                        "DataType": 9,
+                        "Unit": "kW",
+                        "Alarms": null
+                    },
+                    {
+                        "Id": 301,
+                        "Name": "Status",
+                        "NameVirtual": "Status",
+                        "NodeID": 50130100,
+                        "DataType": 9,
+                        "Unit": null,
+                        "Alarms": null
+                    },
+                    {
+                        "Id": 531,
+                        "Name": "Plant Availability",
+                        "NameVirtual": "PlantAvailability",
+                        "NodeID": 50153100,
+                        "DataType": 9,
+                        "Unit": "%",
+                        "Alarms": null
+                    },
+                    {
+                        "Id": 532,
+                        "Name": "Grid Availability",
+                        "NameVirtual": "GridAvailability",
+                        "NodeID": 50153200,
+                        "DataType": 9,
+                        "Unit": "%",
+                        "Alarms": null
+                    }
+                ],
+                "IsMaster": true,
+                "IsExpanded": false,
+                "ParentDeviceId": 0,
+                "TemplateID": 1,
+                "DeviceClassID": 564,
+                "DeviceClassVersion": 1.4000000000000004
+            }
+        ],
+        "IsExpanded": false
+    },
+    {
+        "Id": 0,
+        "Category": "MFM",
+        "TemplateID": 5,
+        "Devices": [
+            {
+                "Id": 2,
+                "NodeID": 50200000,
+                "Name": "MFM",
+                "ActualName": null,
+                "AliasName": null,
+                "Parameters": [
+                    {
+                        "Id": 1,
+                        "Name": "Apparent Power Total",
+                        "NameVirtual": "ApparentPowerTotal",
+                        "NodeID": 50200100,
+                        "DataType": 9,
+                        "Unit": "kVA",
+                        "Alarms": null
+                    },
+                    {
+                        "Id": 2,
+                        "Name": "Active Power Total",
+                        "NameVirtual": "ActivePowerTotal",
+                        "NodeID": 50200200,
+                        "DataType": 9,
+                        "Unit": "kW",
+                        "Alarms": null
+                    },
+                    {
+                        "Id": 4,
+                        "Name": "Power Factor Average",
+                        "NameVirtual": "PowerFactorAverage",
+                        "NodeID": 50200400,
+                        "DataType": 9,
+                        "Unit": "",
+                        "Alarms": null
+                    },
+                    {
+                        "Id": 5,
+                        "Name": "Line to Line Average Voltage",
+                        "NameVirtual": "LinetoLineAverageVoltage",
+                        "NodeID": 50200500,
+                        "DataType": 9,
+                        "Unit": "V",
+                        "Alarms": null
+                    },
+                    {
+                        "Id": 6,
+                        "Name": "Line to Neutral Voltage",
+                        "NameVirtual": "LinetoNeutralVoltage",
+                        "NodeID": 50200600,
+                        "DataType": 9,
+                        "Unit": "V",
+                        "Alarms": null
+                    },
+                    {
+                        "Id": 8,
+                        "Name": "Frequency",
+                        "NameVirtual": "Frequency",
+                        "NodeID": 50200800,
+                        "DataType": 9,
+                        "Unit": "Hz",
+                        "Alarms": null
+                    },
+                    {
+                        "Id": 9,
+                        "Name": "Apparent Power Phase R",
+                        "NameVirtual": "ApparentPowerPhaseR",
+                        "NodeID": 50200900,
+                        "DataType": 9,
+                        "Unit": "kVA",
+                        "Alarms": null
+                    },
+                    {
+                        "Id": 10,
+                        "Name": "Active Power Phase R",
+                        "NameVirtual": "ActivePowerPhaseR",
+                        "NodeID": 50201000,
+                        "DataType": 9,
+                        "Unit": "kW",
+                        "Alarms": null
+                    },
+                    {
+                        "Id": 11,
+                        "Name": "Reactive Power Phase R",
+                        "NameVirtual": "ReactivePowerPhaseR",
+                        "NodeID": 50201100,
+                        "DataType": 9,
+                        "Unit": "kVAr",
+                        "Alarms": null
+                    },
+                    {
+                        "Id": 12,
+                        "Name": "Power Factor Phase R",
+                        "NameVirtual": "PowerFactorPhaseR",
+                        "NodeID": 50201200,
+                        "DataType": 9,
+                        "Unit": "",
+                        "Alarms": null
+                    },
+                    {
+                        "Id": 13,
+                        "Name": "Voltage R-Y",
+                        "NameVirtual": "VoltageR-Y",
+                        "NodeID": 50201300,
+                        "DataType": 9,
+                        "Unit": "V",
+                        "Alarms": null
+                    },
+                    {
+                        "Id": 14,
+                        "Name": "Voltage R-N",
+                        "NameVirtual": "VoltageR-N",
+                        "NodeID": 50201400,
+                        "DataType": 9,
+                        "Unit": "V",
+                        "Alarms": null
+                    },
+                    {
+                        "Id": 15,
+                        "Name": "Current Phase R",
+                        "NameVirtual": "CurrentPhaseR",
+                        "NodeID": 50201500,
+                        "DataType": 9,
+                        "Unit": "A",
+                        "Alarms": null
+                    },
+                    {
+                        "Id": 16,
+                        "Name": "Apparent Power Phase Y",
+                        "NameVirtual": "ApparentPowerPhaseY",
+                        "NodeID": 50201600,
+                        "DataType": 9,
+                        "Unit": "kVA",
+                        "Alarms": null
+                    },
+                    {
+                        "Id": 17,
+                        "Name": "Active Power Phase Y",
+                        "NameVirtual": "ActivePowerPhaseY",
+                        "NodeID": 50201700,
+                        "DataType": 9,
+                        "Unit": "kW",
+                        "Alarms": null
+                    },
+                    {
+                        "Id": 18,
+                        "Name": "Reactive Power Phase Y",
+                        "NameVirtual": "ReactivePowerPhaseY",
+                        "NodeID": 50201800,
+                        "DataType": 9,
+                        "Unit": "kVAr",
+                        "Alarms": null
+                    },
+                    {
+                        "Id": 19,
+                        "Name": "Power Factor Phase Y",
+                        "NameVirtual": "PowerFactorPhaseY",
+                        "NodeID": 50201900,
+                        "DataType": 9,
+                        "Unit": "",
+                        "Alarms": null
+                    },
+                    {
+                        "Id": 20,
+                        "Name": "Voltage Y-B",
+                        "NameVirtual": "VoltageY-B",
+                        "NodeID": 50202000,
+                        "DataType": 9,
+                        "Unit": "V",
+                        "Alarms": null
+                    },
+                    {
+                        "Id": 21,
+                        "Name": "Voltage Y-N",
+                        "NameVirtual": "VoltageY-N",
+                        "NodeID": 50202100,
+                        "DataType": 9,
+                        "Unit": "V",
+                        "Alarms": null
+                    },
+                    {
+                        "Id": 22,
+                        "Name": "Current  Phase Y",
+                        "NameVirtual": "CurrentPhaseY",
+                        "NodeID": 50202200,
+                        "DataType": 9,
+                        "Unit": "A",
+                        "Alarms": null
+                    },
+                    {
+                        "Id": 23,
+                        "Name": "Apparent Power Phase B",
+                        "NameVirtual": "ApparentPowerPhaseB",
+                        "NodeID": 50202300,
+                        "DataType": 9,
+                        "Unit": "kVA",
+                        "Alarms": null
+                    },
+                    {
+                        "Id": 24,
+                        "Name": "Active Power Phase B",
+                        "NameVirtual": "ActivePowerPhaseB",
+                        "NodeID": 50202400,
+                        "DataType": 9,
+                        "Unit": "kW",
+                        "Alarms": null
+                    },
+                    {
+                        "Id": 25,
+                        "Name": "Reactive Power Phase B",
+                        "NameVirtual": "ReactivePowerPhaseB",
+                        "NodeID": 50202500,
+                        "DataType": 9,
+                        "Unit": "kVAr",
+                        "Alarms": null
+                    },
+                    {
+                        "Id": 26,
+                        "Name": "Power Factor Phase B",
+                        "NameVirtual": "PowerFactorPhaseB",
+                        "NodeID": 50202600,
+                        "DataType": 9,
+                        "Unit": "",
+                        "Alarms": null
+                    },
+                    {
+                        "Id": 27,
+                        "Name": "Voltage B-R",
+                        "NameVirtual": "VoltageB-R",
+                        "NodeID": 50202700,
+                        "DataType": 9,
+                        "Unit": "V",
+                        "Alarms": null
+                    },
+                    {
+                        "Id": 28,
+                        "Name": "Voltage B-N",
+                        "NameVirtual": "VoltageB-N",
+                        "NodeID": 50202800,
+                        "DataType": 9,
+                        "Unit": "V",
+                        "Alarms": null
+                    },
+                    {
+                        "Id": 29,
+                        "Name": "Current  Phase B",
+                        "NameVirtual": "CurrentPhaseB",
+                        "NodeID": 50202900,
+                        "DataType": 9,
+                        "Unit": "A",
+                        "Alarms": null
+                    },
+                    {
+                        "Id": 31,
+                        "Name": "Export Energy",
+                        "NameVirtual": "ExportEnergy",
+                        "NodeID": 50203100,
+                        "DataType": 9,
+                        "Unit": "kWh",
+                        "Alarms": null
+                    },
+                    {
+                        "Id": 33,
+                        "Name": "Import Energy",
+                        "NameVirtual": "ImportEnergy",
+                        "NodeID": 50203300,
+                        "DataType": 9,
+                        "Unit": "kWh",
+                        "Alarms": null
+                    },
+                    {
+                        "Id": 34,
+                        "Name": "Daily Energy",
+                        "NameVirtual": "DailyEnergy",
+                        "NodeID": 50203400,
+                        "DataType": 9,
+                        "Unit": "kWh",
+                        "Alarms": null
+                    },
+                    {
+                        "Id": 36,
+                        "Name": "Global Energy",
+                        "NameVirtual": "GlobalEnergy",
+                        "NodeID": 50203600,
+                        "DataType": 9,
+                        "Unit": "kWh",
+                        "Alarms": null
+                    },
+                    {
+                        "Id": 41,
+                        "Name": "Daily Import Energy",
+                        "NameVirtual": "DailyImportEnergy",
+                        "NodeID": 50204100,
+                        "DataType": 9,
+                        "Unit": "kWh",
+                        "Alarms": null
+                    },
+                    {
+                        "Id": 42,
+                        "Name": "Global Import Energy",
+                        "NameVirtual": "GlobalImportEnergy",
+                        "NodeID": 50204200,
+                        "DataType": 9,
+                        "Unit": "kWh",
+                        "Alarms": null
+                    },
+                    {
+                        "Id": 47,
+                        "Name": "Total Energy",
+                        "NameVirtual": "TotalEnergy",
+                        "NodeID": 50204700,
+                        "DataType": 9,
+                        "Unit": "kWh",
+                        "Alarms": null
+                    },
+                    {
+                        "Id": 58,
+                        "Name": "Export_Apparent_Energy",
+                        "NameVirtual": "Export_Apparent_Energy",
+                        "NodeID": 50205800,
+                        "DataType": 9,
+                        "Unit": "kVAh",
+                        "Alarms": null
+                    },
+                    {
+                        "Id": 63,
+                        "Name": "Import_Apparent_Energy",
+                        "NameVirtual": "Import_Apparent_Energy",
+                        "NodeID": 50206300,
+                        "DataType": 9,
+                        "Unit": "kVAh",
+                        "Alarms": null
+                    },
+                    {
+                        "Id": 65,
+                        "Name": "Total Line Current",
+                        "NameVirtual": "TotalLineCurrent",
+                        "NodeID": 50206500,
+                        "DataType": 9,
+                        "Unit": "A",
+                        "Alarms": null
+                    },
+                    {
+                        "Id": 66,
+                        "Name": "Total Reactive Power",
+                        "NameVirtual": "TotalReactivePower",
+                        "NodeID": 50206600,
+                        "DataType": 9,
+                        "Unit": "kVAr",
+                        "Alarms": null
+                    },
+                    {
+                        "Id": 67,
+                        "Name": "Apparent Energy Total",
+                        "NameVirtual": "ApparentEnergyTotal",
+                        "NodeID": 50206700,
+                        "DataType": 9,
+                        "Unit": "kVAh",
+                        "Alarms": null
+                    }
+                ],
+                "IsMaster": true,
+                "IsExpanded": false,
+                "ParentDeviceId": 0,
+                "TemplateID": 5,
+                "DeviceClassID": 108,
+                "DeviceClassVersion": 1.5000000000000004
+            }
+        ],
+        "IsExpanded": false
+    },
+    {
+        "Id": 0,
+        "Category": "WS",
+        "TemplateID": 3,
+        "Devices": [
+            {
+                "Id": 1,
+                "NodeID": 70100000,
+                "Name": "WMS ",
+                "ActualName": null,
+                "AliasName": null,
+                "Parameters": [
+                    {
+                        "Id": 1,
+                        "Name": "Module Temperature",
+                        "NameVirtual": "ModuleTemperature",
+                        "NodeID": 70100100,
+                        "DataType": 9,
+                        "Unit": "°C",
+                        "Alarms": null
+                    },
+                    {
+                        "Id": 2,
+                        "Name": "Ambient Temperature",
+                        "NameVirtual": "AmbientTemperature",
+                        "NodeID": 70100200,
+                        "DataType": 9,
+                        "Unit": "°C",
+                        "Alarms": null
+                    },
+                    {
+                        "Id": 7,
+                        "Name": "GH Irradiance",
+                        "NameVirtual": "GHIrradiance",
+                        "NodeID": 70100700,
+                        "DataType": 9,
+                        "Unit": "w/m²",
+                        "Alarms": null
+                    },
+                    {
+                        "Id": 8,
+                        "Name": "POA Irradiance",
+                        "NameVirtual": "POAIrradiance",
+                        "NodeID": 70100800,
+                        "DataType": 9,
+                        "Unit": "w/m²",
+                        "Alarms": null
+                    },
+                    {
+                        "Id": 11,
+                        "Name": "POA Instantaneous Energy",
+                        "NameVirtual": "POAInstantaneousEnergy",
+                        "NodeID": 70101100,
+                        "DataType": 9,
+                        "Unit": "Wh/m²",
+                        "Alarms": null
+                    },
+                    {
+                        "Id": 12,
+                        "Name": "GHI Instantaneous Energy",
+                        "NameVirtual": "GHIInstantaneousEnergy",
+                        "NodeID": 70101200,
+                        "DataType": 9,
+                        "Unit": "Wh/m²",
+                        "Alarms": null
+                    },
+                    {
+                        "Id": 13,
+                        "Name": "Total POA Energy",
+                        "NameVirtual": "TotalPOAEnergy",
+                        "NodeID": 70101300,
+                        "DataType": 9,
+                        "Unit": "Wh/m²",
+                        "Alarms": null
+                    },
+                    {
+                        "Id": 14,
+                        "Name": "Total GHI Energy",
+                        "NameVirtual": "TotalGHIEnergy",
+                        "NodeID": 70101400,
+                        "DataType": 9,
+                        "Unit": "Wh/m²",
+                        "Alarms": null
+                    },
+                    {
+                        "Id": 15,
+                        "Name": "Daily POA Energy",
+                        "NameVirtual": "DailyPOAEnergy",
+                        "NodeID": 70101500,
+                        "DataType": 9,
+                        "Unit": "Wh/m²",
+                        "Alarms": null
+                    },
+                    {
+                        "Id": 16,
+                        "Name": "Daily GHI Energy",
+                        "NameVirtual": "DailyGHIEnergy",
+                        "NodeID": 70101600,
+                        "DataType": 9,
+                        "Unit": "Wh/m²",
+                        "Alarms": null
+                    },
+                    {
+                        "Id": 17,
+                        "Name": "Global POA Energy",
+                        "NameVirtual": "GlobalPOAEnergy",
+                        "NodeID": 70101700,
+                        "DataType": 9,
+                        "Unit": "Wh/m²",
+                        "Alarms": null
+                    },
+                    {
+                        "Id": 18,
+                        "Name": "Global GHI Energy",
+                        "NameVirtual": "GlobalGHIEnergy",
+                        "NodeID": 70101800,
+                        "DataType": 9,
+                        "Unit": "Wh/m²",
+                        "Alarms": null
+                    },
+                    {
+                        "Id": 38,
+                        "Name": "Daily Energy GHI ",
+                        "NameVirtual": "DailyEnergyGHI",
+                        "NodeID": 70103800,
+                        "DataType": 9,
+                        "Unit": "kWh/m²",
+                        "Alarms": null
+                    },
+                    {
+                        "Id": 39,
+                        "Name": "Daily Energy POA  ",
+                        "NameVirtual": "DailyEnergyPOA",
+                        "NodeID": 70103900,
+                        "DataType": 9,
+                        "Unit": "kWh/m²",
+                        "Alarms": null
+                    },
+                    {
+                        "Id": 99,
+                        "Name": "Temperature Derated Irradiance",
+                        "NameVirtual": "TemperatureDeratedIrradiance",
+                        "NodeID": 70109900,
+                        "DataType": 9,
+                        "Unit": "w/m²",
+                        "Alarms": null
+                    }
+                ],
+                "IsMaster": true,
+                "IsExpanded": false,
+                "ParentDeviceId": 0,
+                "TemplateID": 3,
+                "DeviceClassID": 23,
+                "DeviceClassVersion": 6.599999999999993
+            }
+        ],
+        "IsExpanded": false
+    }
+]

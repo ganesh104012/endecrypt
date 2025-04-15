@@ -1,0 +1,221 @@
+{
+	"UserID": 1237,
+	"UserName": "GaneshkumarS",
+	"Email": "ganeshkumar.s@congruentindia.com",
+	"AccountId": 12,
+	"IsTFA": false,
+	"DefaultProjectId": 333,
+	"Logo": "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",
+	"UserPicture": null,
+	"SecretKey": "",
+	"DefaultLanguage": "en",
+	"IsAdministrator": true,
+	"ApiKey": "",
+	"ExpiryDate": "0001-01-01T00:00:00",
+	"IsApiKey": false,
+	"Domain": null,
+	"Accounts": [
+		{
+			"AccountId": 12,
+			"AccountName": "GMR Gujrat Solar",
+			"AccountNameSL": null,
+			"AccountType": 3,
+			"Active": true,
+			"AccountStatus": 0,
+			"Approvers": null,
+			"DecimalPoint": 2,
+			"IntervalRange": null,
+			"Domain": null,
+			"IsWOMandatory": false,
+			"IsApiKey": false,
+			"ExpiryInDays": 0
+		}
+	],
+	"Projects": [
+		{
+			"ProjectId": 333,
+			"AccountId": 20,
+			"ProjectShortName": "IN.STRI.CBCS",
+			"ProjectLongName": "Stg-CBC Solar",
+			"Location": "Meravadar & Dhank",
+			"Capacity": 10.0,
+			"PlantControllerId": 25800000,
+			"TimeZoneId": 88,
+			"TimeZoneName": "India Standard Time",
+			"Latitude": "21.741573",
+			"Longitude": "70.103513",
+			"CountryId": 102,
+			"CountryName": "India",
+			"CountrySymbol": "IN",
+			"FeaturesList": "[1,2,3,4,5,8]",
+			"FeaturesId": [
+				1,
+				2,
+				3,
+				4,
+				5,
+				8
+			],
+			"DataIntervalRate": 1,
+			"UserTypeList": null,
+			"IsPTWRequired": false,
+			"DomainID": 1,
+			"ProjectProtocolType": null,
+			"DeviceGroupingBasedOn": null,
+			"OperationalStartTime": "2022-05-26T05:00:00",
+			"OperationalEndTime": "2022-05-26T19:00:00",
+			"DeviceList": [
+				{
+					"TemplateID": 15,
+					"TemplateName": "Benchmarking",
+					"Count": 1,
+					"Category": 0
+				},
+				{
+					"TemplateID": 0,
+					"TemplateName": "Datasources",
+					"Count": 1,
+					"Category": 0
+				},
+				{
+					"TemplateID": 12,
+					"TemplateName": "HT PANEL",
+					"Count": 5,
+					"Category": 0
+				},
+				{
+					"TemplateID": 1,
+					"TemplateName": "Inverter",
+					"Count": 43,
+					"Category": 0
+				},
+				{
+					"TemplateID": 7,
+					"TemplateName": "Inverter Container",
+					"Count": 7,
+					"Category": 0
+				},
+				{
+					"TemplateID": 5,
+					"TemplateName": "MFM",
+					"Count": 8,
+					"Category": 0
+				},
+				{
+					"TemplateID": 6,
+					"TemplateName": "Plant",
+					"Count": 1,
+					"Category": 0
+				},
+				{
+					"TemplateID": 3,
+					"TemplateName": "WS",
+					"Count": 1,
+					"Category": 0
+				}
+			],
+			"NavigationMenuId": null,
+			"NavigationMenuType": null,
+			"CustomerName": ""
+		},
+		{
+			"ProjectId": 13,
+			"AccountId": 12,
+			"ProjectShortName": "IN.GMRX.CHAR",
+			"ProjectLongName": "Stg-GMR GUJRAT SOLAR PVT LTD",
+			"Location": "CHARANKA, GUJRAT",
+			"Capacity": 25.048,
+			"PlantControllerId": 500100000,
+			"TimeZoneId": 88,
+			"TimeZoneName": "India Standard Time",
+			"Latitude": "23.883917",
+			"Longitude": "71.191411",
+			"CountryId": 102,
+			"CountryName": "India",
+			"CountrySymbol": "IN",
+			"FeaturesList": "[1,2,3,4,5,7,8]",
+			"FeaturesId": [
+				1,
+				2,
+				3,
+				4,
+				5,
+				7,
+				8
+			],
+			"DataIntervalRate": 1,
+			"UserTypeList": null,
+			"IsPTWRequired": false,
+			"DomainID": 1,
+			"ProjectProtocolType": null,
+			"DeviceGroupingBasedOn": null,
+			"OperationalStartTime": "2022-04-24T05:00:00",
+			"OperationalEndTime": "2022-04-24T19:00:00",
+			"DeviceList": [
+				{
+					"TemplateID": 15,
+					"TemplateName": "Benchmarking",
+					"Count": 1,
+					"Category": 0
+				},
+				{
+					"TemplateID": 8,
+					"TemplateName": "Diagnostics",
+					"Count": 1,
+					"Category": 0
+				},
+				{
+					"TemplateID": 1,
+					"TemplateName": "Inverter",
+					"Count": 45,
+					"Category": 0
+				},
+				{
+					"TemplateID": 7,
+					"TemplateName": "Inverter Container",
+					"Count": 48,
+					"Category": 0
+				},
+				{
+					"TemplateID": 5,
+					"TemplateName": "MFM",
+					"Count": 8,
+					"Category": 0
+				},
+				{
+					"TemplateID": 6,
+					"TemplateName": "Plant",
+					"Count": 1,
+					"Category": 0
+				},
+				{
+					"TemplateID": 23,
+					"TemplateName": "SMB Monitoring String",
+					"Count": 4401,
+					"Category": 0
+				},
+				{
+					"TemplateID": 2,
+					"TemplateName": "SMB-24",
+					"Count": 567,
+					"Category": 0
+				},
+				{
+					"TemplateID": 3,
+					"TemplateName": "WS",
+					"Count": 5,
+					"Category": 0
+				}
+			],
+			"NavigationMenuId": null,
+			"NavigationMenuType": null,
+			"CustomerName": ""
+		}
+	],
+	"IntervalRange": [
+		0,
+		1,
+		2,
+		3
+	]
+}

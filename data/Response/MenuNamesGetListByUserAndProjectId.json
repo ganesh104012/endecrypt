@@ -1,0 +1,461 @@
+[
+	{
+		"MenuID": 4,
+		"MenuCaption": "Management",
+		"MenuParentID": null,
+		"ViewAccess": true,
+		"EditAccess": true,
+		"VisibleIndex": 2,
+		"Type": 0
+	},
+	{
+		"MenuID": 14,
+		"MenuCaption": "Dashboards",
+		"MenuParentID": null,
+		"ViewAccess": true,
+		"EditAccess": true,
+		"VisibleIndex": 4,
+		"Type": 0
+	},
+	{
+		"MenuID": 16,
+		"MenuCaption": "Monitoring",
+		"MenuParentID": null,
+		"ViewAccess": true,
+		"EditAccess": true,
+		"VisibleIndex": 5,
+		"Type": 0
+	},
+	{
+		"MenuID": 25,
+		"MenuCaption": "Alarms & Events",
+		"MenuParentID": null,
+		"ViewAccess": true,
+		"EditAccess": true,
+		"VisibleIndex": 8,
+		"Type": 0
+	},
+	{
+		"MenuID": 28,
+		"MenuCaption": "Diagnostics",
+		"MenuParentID": null,
+		"ViewAccess": true,
+		"EditAccess": true,
+		"VisibleIndex": 12,
+		"Type": 0
+	},
+	{
+		"MenuID": 35,
+		"MenuCaption": "Reporting",
+		"MenuParentID": null,
+		"ViewAccess": true,
+		"EditAccess": true,
+		"VisibleIndex": 7,
+		"Type": 0
+	},
+	{
+		"MenuID": 37,
+		"MenuCaption": "Spreadsheet",
+		"MenuParentID": null,
+		"ViewAccess": true,
+		"EditAccess": true,
+		"VisibleIndex": 10,
+		"Type": 0
+	},
+	{
+		"MenuID": 40,
+		"MenuCaption": "CMMS",
+		"MenuParentID": null,
+		"ViewAccess": true,
+		"EditAccess": true,
+		"VisibleIndex": 8,
+		"Type": 0
+	},
+	{
+		"MenuID": 62,
+		"MenuCaption": "Analytics",
+		"MenuParentID": null,
+		"ViewAccess": true,
+		"EditAccess": true,
+		"VisibleIndex": 6,
+		"Type": 0
+	},
+	{
+		"MenuID": 95,
+		"MenuCaption": "CMMS Master",
+		"MenuParentID": null,
+		"ViewAccess": true,
+		"EditAccess": true,
+		"VisibleIndex": 3,
+		"Type": 0
+	},
+	{
+		"MenuID": 100,
+		"MenuCaption": "Support",
+		"MenuParentID": null,
+		"ViewAccess": true,
+		"EditAccess": true,
+		"VisibleIndex": 13,
+		"Type": 0
+	},
+	{
+		"MenuID": 6,
+		"MenuCaption": "Projects",
+		"MenuParentID": 4,
+		"ViewAccess": true,
+		"EditAccess": true,
+		"VisibleIndex": 6,
+		"Type": 0
+	},
+	{
+		"MenuID": 8,
+		"MenuCaption": "Users",
+		"MenuParentID": 4,
+		"ViewAccess": true,
+		"EditAccess": true,
+		"VisibleIndex": 8,
+		"Type": 0
+	},
+	{
+		"MenuID": 15,
+		"MenuCaption": "Technical",
+		"MenuParentID": 14,
+		"ViewAccess": true,
+		"EditAccess": true,
+		"VisibleIndex": 10,
+		"Type": 0
+	},
+	{
+		"MenuID": 98,
+		"MenuCaption": "Personalize",
+		"MenuParentID": 14,
+		"ViewAccess": true,
+		"EditAccess": true,
+		"VisibleIndex": 13,
+		"Type": 0
+	},
+	{
+		"MenuID": 17,
+		"MenuCaption": "CB",
+		"MenuParentID": 16,
+		"ViewAccess": true,
+		"EditAccess": true,
+		"VisibleIndex": 14,
+		"Type": 0
+	},
+	{
+		"MenuID": 18,
+		"MenuCaption": "Inverter",
+		"MenuParentID": 16,
+		"ViewAccess": true,
+		"EditAccess": true,
+		"VisibleIndex": 15,
+		"Type": 0
+	},
+	{
+		"MenuID": 19,
+		"MenuCaption": "MFM",
+		"MenuParentID": 16,
+		"ViewAccess": true,
+		"EditAccess": true,
+		"VisibleIndex": 16,
+		"Type": 0
+	},
+	{
+		"MenuID": 20,
+		"MenuCaption": "WS",
+		"MenuParentID": 16,
+		"ViewAccess": true,
+		"EditAccess": true,
+		"VisibleIndex": 17,
+		"Type": 0
+	},
+	{
+		"MenuID": 26,
+		"MenuCaption": "Alarms",
+		"MenuParentID": 25,
+		"ViewAccess": true,
+		"EditAccess": true,
+		"VisibleIndex": 23,
+		"Type": 0
+	},
+	{
+		"MenuID": 27,
+		"MenuCaption": "Events",
+		"MenuParentID": 25,
+		"ViewAccess": true,
+		"EditAccess": true,
+		"VisibleIndex": 24,
+		"Type": 0
+	},
+	{
+		"MenuID": 135,
+		"MenuCaption": "Custom Alerts",
+		"MenuParentID": 25,
+		"ViewAccess": true,
+		"EditAccess": true,
+		"VisibleIndex": 1,
+		"Type": 0
+	},
+	{
+		"MenuID": 30,
+		"MenuCaption": "History",
+		"MenuParentID": 28,
+		"ViewAccess": true,
+		"EditAccess": true,
+		"VisibleIndex": 27,
+		"Type": 0
+	},
+	{
+		"MenuID": 59,
+		"MenuCaption": "Data Correction",
+		"MenuParentID": 28,
+		"ViewAccess": true,
+		"EditAccess": true,
+		"VisibleIndex": 49,
+		"Type": 0
+	},
+	{
+		"MenuID": 36,
+		"MenuCaption": "Reports",
+		"MenuParentID": 35,
+		"ViewAccess": true,
+		"EditAccess": true,
+		"VisibleIndex": 37,
+		"Type": 0
+	},
+	{
+		"MenuID": 56,
+		"MenuCaption": "Scheduler",
+		"MenuParentID": 35,
+		"ViewAccess": true,
+		"EditAccess": true,
+		"VisibleIndex": 48,
+		"Type": 0
+	},
+	{
+		"MenuID": 125,
+		"MenuCaption": "Investor Dashboard",
+		"MenuParentID": 35,
+		"ViewAccess": true,
+		"EditAccess": true,
+		"VisibleIndex": 10,
+		"Type": 0
+	},
+	{
+		"MenuID": 39,
+		"MenuCaption": "Viewer",
+		"MenuParentID": 37,
+		"ViewAccess": true,
+		"EditAccess": true,
+		"VisibleIndex": 40,
+		"Type": 0
+	},
+	{
+		"MenuID": 81,
+		"MenuCaption": "Work Order",
+		"MenuParentID": 40,
+		"ViewAccess": true,
+		"EditAccess": true,
+		"VisibleIndex": 1,
+		"Type": 0
+	},
+	{
+		"MenuID": 82,
+		"MenuCaption": "Project Resources",
+		"MenuParentID": 40,
+		"ViewAccess": true,
+		"EditAccess": true,
+		"VisibleIndex": 4,
+		"Type": 0
+	},
+	{
+		"MenuID": 94,
+		"MenuCaption": "PM Scheduler",
+		"MenuParentID": 40,
+		"ViewAccess": true,
+		"EditAccess": true,
+		"VisibleIndex": 3,
+		"Type": 0
+	},
+	{
+		"MenuID": 97,
+		"MenuCaption": "Inventory",
+		"MenuParentID": 40,
+		"ViewAccess": true,
+		"EditAccess": true,
+		"VisibleIndex": 2,
+		"Type": 0
+	},
+	{
+		"MenuID": 106,
+		"MenuCaption": "Contract",
+		"MenuParentID": 40,
+		"ViewAccess": true,
+		"EditAccess": true,
+		"VisibleIndex": 3,
+		"Type": 0
+	},
+	{
+		"MenuID": 109,
+		"MenuCaption": "User Tracking",
+		"MenuParentID": 40,
+		"ViewAccess": true,
+		"EditAccess": true,
+		"VisibleIndex": 5,
+		"Type": 0
+	},
+	{
+		"MenuID": 124,
+		"MenuCaption": "Environment Health Safety",
+		"MenuParentID": 40,
+		"ViewAccess": true,
+		"EditAccess": true,
+		"VisibleIndex": 12,
+		"Type": 0
+	},
+	{
+		"MenuID": 126,
+		"MenuCaption": "Module Cleaning Cycle",
+		"MenuParentID": 40,
+		"ViewAccess": true,
+		"EditAccess": true,
+		"VisibleIndex": 14,
+		"Type": 0
+	},
+	{
+		"MenuID": 24,
+		"MenuCaption": "Trends",
+		"MenuParentID": 62,
+		"ViewAccess": true,
+		"EditAccess": true,
+		"VisibleIndex": 21,
+		"Type": 0
+	},
+	{
+		"MenuID": 64,
+		"MenuCaption": "Time Lapse",
+		"MenuParentID": 62,
+		"ViewAccess": true,
+		"EditAccess": true,
+		"VisibleIndex": 51,
+		"Type": 0
+	},
+	{
+		"MenuID": 76,
+		"MenuCaption": "Profiling",
+		"MenuParentID": 62,
+		"ViewAccess": true,
+		"EditAccess": true,
+		"VisibleIndex": 54,
+		"Type": 0
+	},
+	{
+		"MenuID": 123,
+		"MenuCaption": "MTTR MTBF Summary",
+		"MenuParentID": 62,
+		"ViewAccess": true,
+		"EditAccess": true,
+		"VisibleIndex": 56,
+		"Type": 0
+	},
+	{
+		"MenuID": 41,
+		"MenuCaption": "Resources",
+		"MenuParentID": 95,
+		"ViewAccess": true,
+		"EditAccess": true,
+		"VisibleIndex": 5,
+		"Type": 0
+	},
+	{
+		"MenuID": 78,
+		"MenuCaption": "Vendors",
+		"MenuParentID": 95,
+		"ViewAccess": true,
+		"EditAccess": true,
+		"VisibleIndex": 6,
+		"Type": 0
+	},
+	{
+		"MenuID": 80,
+		"MenuCaption": "Warehouses",
+		"MenuParentID": 95,
+		"ViewAccess": true,
+		"EditAccess": true,
+		"VisibleIndex": 8,
+		"Type": 0
+	},
+	{
+		"MenuID": 83,
+		"MenuCaption": "Asset Master",
+		"MenuParentID": 95,
+		"ViewAccess": true,
+		"EditAccess": true,
+		"VisibleIndex": 2,
+		"Type": 0
+	},
+	{
+		"MenuID": 85,
+		"MenuCaption": "Activities",
+		"MenuParentID": 95,
+		"ViewAccess": true,
+		"EditAccess": true,
+		"VisibleIndex": 1,
+		"Type": 0
+	},
+	{
+		"MenuID": 89,
+		"MenuCaption": "People",
+		"MenuParentID": 95,
+		"ViewAccess": true,
+		"EditAccess": true,
+		"VisibleIndex": 10,
+		"Type": 0
+	},
+	{
+		"MenuID": 91,
+		"MenuCaption": "Crew",
+		"MenuParentID": 95,
+		"ViewAccess": true,
+		"EditAccess": true,
+		"VisibleIndex": 11,
+		"Type": 0
+	},
+	{
+		"MenuID": 93,
+		"MenuCaption": "Anomaly",
+		"MenuParentID": 95,
+		"ViewAccess": true,
+		"EditAccess": true,
+		"VisibleIndex": 4,
+		"Type": 0
+	},
+	{
+		"MenuID": 99,
+		"MenuCaption": "Task",
+		"MenuParentID": 95,
+		"ViewAccess": true,
+		"EditAccess": true,
+		"VisibleIndex": 7,
+		"Type": 0
+	},
+	{
+		"MenuID": 114,
+		"MenuCaption": "Plant Generation Forecast",
+		"MenuParentID": 95,
+		"ViewAccess": true,
+		"EditAccess": true,
+		"VisibleIndex": 9,
+		"Type": 0
+	},
+	{
+		"MenuID": 101,
+		"MenuCaption": "Ticket",
+		"MenuParentID": 100,
+		"ViewAccess": true,
+		"EditAccess": true,
+		"VisibleIndex": 1,
+		"Type": 0
+	}
+]

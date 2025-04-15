@@ -1,0 +1,128 @@
+{
+	"DBEndpoints": [
+		{
+			"StorageType": "Config",
+			"Implementation": "CoreDAL.Implementation.MSSQL",
+			"HostAddress": "172.16.4.29",
+			"Catalog": "dev_dbcentral",
+			"Username": "sa-dev",
+			"Password": "Dev@2022",
+			"PortNo": "1433",
+			"ProjectsId": null,
+			"ProjectRange": {
+				"Min": 238,
+				"Max": 1000
+			},
+			"RegionCode": null
+		},
+		{
+			"StorageType": "Analytics",
+			"Implementation": "CoreDAL.Implementation.MSSQLReporting",
+			"HostAddress": "172.16.4.29",
+			"Catalog": "dev_baikal",
+			"Username": "sa-dev",
+			"Password": "Dev@2022",
+			"PortNo": "1433"
+		},
+		{
+			"StorageType": "DataDB",
+			"Implementation": "CoreDAL.Implementation.INFLUXDB",
+			"HostAddress": "172.16.4.30",
+			"Catalog": "DataDB",
+			"Username": "root",
+			"Password": "Mah##haM",
+			"PortNo": "8086",
+			"ProjectsId": null,
+			"ProjectRange": {
+				"Min": 0,
+				"Max": 0
+			},
+			"RegionCode": null
+		},
+		{
+			"StorageType": "LoggerDB",
+			"Implementation": "CoreDAL.Implementation.InfluxDBLogger",
+			"HostAddress": "172.16.4.30",
+			"Catalog": "DataDB",
+			"Username": "root",
+			"Password": "Mah##haM",
+			"PortNo": "8086"
+		}
+	],
+	"ForwardEndpoints": [
+		{
+			"IsAllowedToFetch": true,
+			"Implementation": "CoreDataAPI.InfluxDBEndpoint",
+			"HostAddress": "172.16.4.30",
+			"Catalog": "EarthSolar",
+			"Username": "influxadmin",
+			"Password": "@@prescinto##05#12#2016@@",
+			"PortNo": "8086",
+			"ProjectsId": [
+				18,
+				20,
+				23,
+				109,
+				111,
+				229,
+				237,
+				592,
+				396
+			],
+			"ProjectRange": {
+				"Min": 3,
+				"Max": 15
+			},
+			"RegionCode": null
+		},
+		{
+			"IsAllowedToFetch": true,
+			"Implementation": "CoreDataAPI.InfluxDBEndpoint",
+			"HostAddress": "172.16.4.30",
+			"Catalog": "EarthSolar",
+			"Username": "influxadmin",
+			"Password": "@@prescinto##05#12#2016@@",
+			"PortNo": "9086",
+			"ProjectsId": [
+				19,
+				246,
+				247,
+				592,
+				396
+			],
+			"ProjectRange": {
+				"Min": 0,
+				"Max": 0
+			},
+			"RegionCode": null
+		}
+	],
+	"Notifier": {
+		"HostAddress": "localhost",
+		"HostPort": 8083
+	},
+	"EmailServer": {
+		"MailServer": "smtp.emailidea.biz",
+		"MailServerPort": 587,
+		"Username": "updates@prescinto.com",
+		"Password": "d0d90d15c63749f68693103800f90fab"
+	},
+	"AndroidConfig": {
+		"FireBasePushNotificationsURL": "https://fcm.googleapis.com/fcm/send",
+		"ServerKey": "AAAAfeKBZs8:APA91bFr0fo4h_IM_nR5T6HXIwnSQ85JmEauVARp-xXS8VjG6-qZNd4EizVztYllPhVMUJ2HrLjY9yhDllH2N1Xj1FGT1p4BiOkxEYa3g2rSMD17MdA1LdWRGY0eItag3QRro5WeQcfS"
+	},
+	"SmsConfig": {
+		"SmsUrl": "https://japi.instaalerts.zone/httpapi/QueryStringReceiver?ver=1.0&key=bsc8UPMHQuzst/AZKr21Cw==&encrpt=0&dest={0}&send=PRTECH&text={1}"
+	},
+	"Tahoe": {
+		"HostAddress": "localhost",
+		"HostPort": 5000
+	},
+	"Upload": {
+		"SharedPath": "E:\\Uploads\\",
+		"PhysicalPath": "E:\\Uploads\\",
+		"SharedPathInflux": "E:\\Uploads\\"
+	},
+	"BasePath": "E:\\SourceCode\\CorNotifier\\bin\\Debug\\",
+	"IsApiCallEnabled": false
+}

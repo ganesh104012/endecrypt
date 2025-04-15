@@ -1,0 +1,39 @@
+<!doctype html>
+<html>
+<head>
+<link rel="stylesheet" href="/css/bootstrap.min.css">
+
+<!-- Optional theme -->
+<link rel="stylesheet" href="/css/bootstrap-theme.min.css" >
+<link rel="stylesheet" href="/css/style.css" >
+</head>
+<body>
+<label>Encrypted Data</label>
+<textarea id="input" style="width:100%;height:40vh;"></textarea>
+<br/>
+<label>Decrypted Data</label>
+<textarea id="output" style="width:100%;height:40vh;"></textarea>
+<script type="text/javascript">
+var iE = document.getElementById('input');
+var oE = document.getElementById('output');
+iE.addEventListener('change', function () {
+    ajaxRequest("/decrypt-online", iE.value, function (resp) {
+        oE.value = resp
+    });
+});
+
+function ajaxRequest(url, data, callback) {
+    xhttp = new XMLHttpRequest(async = false);
+    xhttp.open("POST", url);
+//    xhttp.setRequestHeader("Content-type", "application/x-www-form-urlencoded");
+    xhttp.setRequestHeader("Content-type", "application/json");
+//    xhttp.send("data=" + encodeURIComponent(data));
+    xhttp.send('{"data":"' + data+'"}');
+    xhttp.onload = function () {
+        console.log(xhttp.responseText);
+        callback(xhttp.responseText);
+    }
+}
+</script>
+</body>
+</html>
